@@ -6,7 +6,9 @@ There's a lot (and I mean a whole lot) of tools out there for Rapid Prototyping 
 Also, most projects that I look at talk about Webpack, Gulp, Grunt and the like. I think these are more than just Rapo. They require a good deal more to get started. The rapo projects I'm putting together, require a super small amount of configuration and stuff.
 
 ## What's in this repo (now not rapo)
-This is a barebones Browserify and Budo project. The idea is the build all other projects using this as the basic setup. The only JavaScript for web library I've used is [`domready`](https://www.npmjs.com/package/domready) - which I've used because I want to not use jQuery or any other library to check if the DOM is ready at the start.
+This is a barebones Browserify and Budo project. The idea is the build all other projects using this as the basic setup. The only JavaScript for web library I've used is [`domready`](https://www.npmjs.com/package/domready) - which I've used because I want to not use `jQuery` or any such other library to check if the DOM is ready at the start.
+
+*Don't get me wrong. I have quite enjoyed using `jQuery` over the years. It has contributed to where the web is at more than maybe any other single JavaScript library. But it's probably done it time.*
 
 ### entry.js
 This will be used by budo to start up things.
