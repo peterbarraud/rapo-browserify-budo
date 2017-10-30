@@ -5,7 +5,7 @@
   "main": "entry.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "budo entry.js:bundle.js --live --open",
+    "start": "budo ./src/js/main.js:bundle.js --live --open",
     "build": "node build"
   },
   "repository": {
