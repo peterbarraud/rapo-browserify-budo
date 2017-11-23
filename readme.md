@@ -44,7 +44,6 @@ Inside `src/js/` is where all the JS is. That's where we include the one library
 That's it. If you want a project with plain vanilla JS and CSS that's all you need.
 
 ## Building the project for deployment
--- STILL A BIG TODO --
 Well, this may be a rapo but we might still want to push this onto a prod environment. A apache server or something of the sort.
 
 To generate a prod output, I've also created a `build.js` file that run using:
@@ -52,3 +51,9 @@ To generate a prod output, I've also created a `build.js` file that run using:
 npm run build
 ```
 This creates a build dir that includes all you need to push to prod.
+### Testing the build
+If you want to check the build - Just to make sure:
+```
+npm run testbuild
+```
+This runs `budo` on the build
